@@ -1,0 +1,232 @@
+.contact-wrap {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+
+    .page-content-wrap {
+        width: 100%;
+        height: 100%;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            background-color: white;
+            box-shadow: 0px 2px 4px rgb(221, 221, 221);
+        }
+
+        .title {
+            h1 {
+                font-size: 18px;
+                font-weight: bolder;
+                margin: 0;
+            }
+        }
+    
+        .more-help-section {
+            width: 100%;
+            height: auto;
+            padding: 3%;
+            margin-top: 50px;
+
+            h1 {
+                font-size: 22px;
+                font-weight: bolder;
+                margin: 0;
+            }
+
+            a {
+                margin-top: 16px;
+            }
+        }
+
+        .help-center-section {
+            width: 100%;
+            height: 240px;
+
+            .help-center__title {
+                width: 100%;
+                padding: 2%;
+
+                text-align: center;
+                border: .5px solid rgb(221, 221, 221);
+
+                #back-icon {
+                    // position: absolute;
+                    float: left;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .help-center__sentmsg {
+                width: 100%;
+                height: 260px;
+                padding: 3%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+
+                #button {
+                    width: 100%;
+                    padding: 2%;
+                    border-radius: 0;
+                    background-color: rgb(22, 111, 184);
+                    transition: .5s ease-in-out;
+
+                    &:hover {
+                        transition: .5s ease-in-out;
+                        background-color: rgb(4, 96, 172);
+                    }
+                }
+
+                h1 {
+                    font-size: 22px;
+                    font-weight: bolder;
+                    margin: 0;
+                }
+            }
+
+            .help-center__content {
+                width: 100%;
+                height: 100%;
+                padding: 3%;
+                justify-content: space-between;
+
+                h1 {
+                    font-size: 22px;
+                    font-weight: bolder;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: light;
+                    margin: 0;
+                }
+
+                .help-center__content-textarea {
+                    margin-top: 20px;
+
+                    h2 {
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+
+                    textarea {
+                        width: 100%;
+                    }
+                }
+
+                .help-center__content-sendmsg {
+                    width: 100%;
+                    height: 110px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin-top: 20px;
+
+                    #button {
+                        width: 20%;
+                        padding: 1%;
+                        border-radius: 0;
+                        background-color: rgb(22, 111, 184);
+                        transition: .5s ease-in-out;
+    
+                        &:hover {
+                            transition: .5s ease-in-out;
+                            background-color: rgb(4, 96, 172);
+                        }
+                    }
+
+                    #span__mail-title {
+                        font-size: 15px;
+                    }
+
+                    #span__mail {
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+                }
+
+                .theme-answer {
+                    
+                    .theme-answer__desc {
+                        p {
+                            font-size: 16px;
+                            font-weight: light;
+                            margin: 0;
+                            margin-top: 16px;
+                            margin-bottom: 16px;
+                            text-align: justify;
+                        }
+                    }
+                }
+
+                #button {
+                    width: 50%;
+                    padding: 1%;
+                    border-radius: 0;
+                    background-color: rgb(22, 111, 184);
+                    transition: .5s ease-in-out;
+
+                    &:hover {
+                        transition: .5s ease-in-out;
+                        background-color: rgb(4, 96, 172);
+                    }
+                }
+            }
+        }
+
+        .fit-height {
+            height: 100%;
+        }
+
+        .faq-section {
+            width: 100%;
+            margin-top: 5%;
+
+            .faq__title {
+                width: 100%;
+                padding: 3%;
+            }
+
+            .theme-container {
+
+                .theme__content {
+                    padding: 3%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    h2 {
+                        font-size: 18px;
+                        margin: 0;
+                    }
+                }
+
+                &::before {
+                    margin: 0 auto;
+                    width: 95%;
+                    border-top: 1px solid #e6e6e6;
+                    height: 0;
+                    position: relative;
+                    display: block;
+                    content: '';
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

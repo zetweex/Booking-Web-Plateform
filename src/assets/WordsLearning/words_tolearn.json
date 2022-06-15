@@ -1,0 +1,53 @@
+{
+    "en": {
+        "hello": "Good morning / good afternoon / Good evening",
+        "how-are-you": "How are you ?",
+        "well-and-you": "Very well, thank you, and you ?",
+        "speak-french": "Do you speak French / English ?",
+        "understand": "I understand / I don't understand",
+        "sorry": "Sorry",
+        "bye": "Goodbye",
+        "welcome": "Welcome",
+        "thanks": "Thank you (very much)",
+        "excuse-me": "Excuse me / please",
+        "im-french": "I'm French",
+        "my-name-is": "My name is...",
+        "no-thanks": "No thanks",
+        "yes-no": "Yes / No",
+        "youre-welcome": "You're welcome"
+    },
+    "es": {
+        "hello": "Buenos días / Buenas tardes",
+        "how-are-you": "Cómo estas ?",
+        "well-and-you": "Muy bien, gracias, y usted ?",
+        "speak-french": "Habla francés ?",
+        "understand": "Entiendo / No entiendo",
+        "sorry": "Lo siento",
+        "bye": "Adios",
+        "welcome": "Bienvenido",
+        "thanks": "(Muchas) Gracias",
+        "excuse-me": "Pardone me / Por favor",
+        "im-french": "Soy francesa",
+        "my-name-is": "Me llamo",
+        "no-thanks": "No gracias",
+        "yes-no": "Sí / No",
+        "youre-welcome": "De nada"
+    },
+    "de": {
+        "hello": "Guten Morgen (le matin)-Guten Tag / Guten Abend",
+        "how-are-you": "Wie geht es Ihnen ?",
+        "well-and-you": "Hervorragend, danke, und Ihnen ?",
+        "speak-french": "Sprechen Sie Französisch/Englisch ?",
+        "understand": "Ich verstehe/Ich verstehe nicht",
+        "sorry": "Verzeihung",
+        "bye": "Auf Wiedersehen",
+        "welcome": "Willkommen",
+        "thanks": "Danke (Vielen Dank)",
+        "excuse-me": "Entschuldigung / Bitte",
+        "im-french": "Ich bin Franzose (Französin, fem.)",
+        "my-name-is": "Ich heiße...",
+        "no-thanks": "Nein danke",
+        "yes-no": "Ja / Nein",
+        "youre-welcome": "Keine Ursache / Bitte"
+    }
+}

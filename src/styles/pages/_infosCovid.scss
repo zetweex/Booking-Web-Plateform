@@ -1,0 +1,70 @@
+.infos-covid {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 15%;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 0;
+            margin-left: 20px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .title {
+        padding-top: 50px;
+    }
+
+    .infos-covid-section {
+
+        .infos-covid-section__title {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            text-align: center;
+
+            .infos-covid-section__title-arrow {
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .infos-covid-section__content {
+            margin-top: 25px;
+        }
+
+        &::before {
+            margin-left: -16px;
+            margin-right: -16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            border-top: 1px solid #e6e6e6;
+            height: 0;
+            position: relative;
+            display: block;
+            content: '';
+        }
+    }
+}

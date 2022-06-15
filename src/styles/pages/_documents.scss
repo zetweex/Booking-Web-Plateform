@@ -1,0 +1,182 @@
+.documents-page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;    
+    .documents-canvas {
+        background-color: white;
+        width: 50%;
+        margin-top: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px rgb(196, 196, 196);
+        margin-bottom: 30px;
+        
+        .documents-canvas_header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            margin-top: 40px;
+            .icon{
+                font-size: 50px;
+                color: rgb(21, 21, 134);
+                margin-right: 30px;
+
+            }
+            h1 {
+                color: rgb(20, 20, 82);
+                font-weight: bold;
+            }
+            span {
+                margin-top: 8px;
+                color: #616161;
+                font-size: 18px;
+            }
+
+
+        }
+
+        .files{
+            height: 600px;
+            scroll-behavior: smooth;
+            overflow: auto;
+            -ms-overflow-style:none;
+            scrollbar-width: none;
+
+
+        }
+    }
+    .add{
+        bottom:40px;
+        position:fixed;
+        .add-icon{
+
+            font-size: 70px;
+            cursor: pointer;
+            bottom:40px;
+            -webkit-box-shadow: 0px 10px 4px -4px rgba(0,0,0,0.5); 
+            box-shadow: 0px 10px 4px -4px rgba(0,0,0,0.5);     
+            border-radius: 50%;
+            color: white;
+
+            background-color: rgb(20, 20, 82);
+        }
+        .add-icon:hover{
+            font-size: 85px;
+            background-color: rgb(20, 20, 82);
+            -webkit-box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.5); 
+            box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.5);
+        }
+        .file-input{
+            position: absolute;
+            display: none;
+
+        }
+    
+    }
+
+    .add_button-label{
+        bottom: 40px;
+        position: absolute;
+
+        justify-content: center;
+        .add_button-icon{
+            font-size: 70px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(20, 20, 82);
+            border-radius: 50%;
+            -webkit-box-shadow: 0px 10px 4px -4px rgba(0,0,0,0.5); 
+            box-shadow: 0px 10px 4px -4px rgba(0,0,0,0.5); 
+        }
+        .add_button-icon:hover{
+            font-size: 75px;
+            background-color: rgb(20, 20, 82);
+            -webkit-box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.5); 
+            box-shadow: 0px 10px 13px 0px rgba(0,0,0,0.5);
+        }
+
+
+    }
+    #input-file{
+        display: none;
+    }
+}
+
+.file{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 30px;
+    -webkit-box-shadow: 0px 1px 11px -8px rgba(0,0,0,0.5); 
+    box-shadow: 0px 1px 11px -8px rgba(0,0,0,0.5);
+
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .type{
+            font-size: 30px;
+            color: rgb(21, 21, 134);
+
+        }
+        .text{
+            font-weight: 200px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color:rgb(21, 21, 134);
+        }
+
+
+    }
+    .actions{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+
+
+        .download{
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            color: rgb(21, 21, 134);
+
+
+        }
+        .download:hover{
+            font-size: 30px;
+            color: rgb(61, 168, 136);
+            margin-left: 20px;
+            
+
+        }
+        .trash{
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: rgb(21, 21, 134);
+
+
+        }
+        .trash:hover{
+            font-size: 30px;
+            color: rgb(204, 98, 98);
+        }
+    }
+}
+.file > .info:hover{ 
+    font: size 40px;
+}
+.file:hover{
+    background-color:rgba(21, 21, 131, 0.178);
+    font-weight: 600;
+}

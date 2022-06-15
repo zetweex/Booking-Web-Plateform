@@ -1,0 +1,12 @@
+.list_container {
+    padding: 25px;
+
+    .form_control {
+        margin-bottom: 30px;
+    }
+
+    .result_listing {
+        height: 65vh;
+        overflow: auto;
+    }
+}

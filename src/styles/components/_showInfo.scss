@@ -1,0 +1,99 @@
+.show-info-container {
+    position: fixed; /* Sit on top of the page content */ /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 4; /* Black background with opacity */
+
+    .edit-page-container {
+        background-color: white;
+        border-radius: 6px;
+        border: 1px solid gray;
+        width: 50%;
+        position: absolute;
+        padding: 2%;
+        z-index: 5;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    
+        .title-container {
+            h1 {
+                font-size: 16px;
+            }
+        }
+
+        .show-datas-container {
+            margin-top: 5%;
+
+            .node-datas-container {
+                // background-color: red;
+                display: flex;
+                flex-direction: row;
+                .datas-titles-container {
+                    width: 50%;
+                    h2 {
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                }
+    
+                .datas-content-container {
+                    width: 50%;
+                    p {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        .btn-container {
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .btn-validation-style {
+                padding: 5px 20px;
+                cursor: pointer;
+                background: #0f6ae9;
+                color: rgb(255, 255, 255);
+                z-index: 3;
+                border: none;
+                transition: 1s ease-in-out;
+                font-size: 10px;
+                border-radius: 4px;
+                font-weight: bold;
+        
+                &:hover {
+                    transition: .5s ease-in-out;
+                    background: #5f83b6;
+                }
+            }
+
+            .btn-cancelation-style {
+                padding: 5px 20px;
+                cursor: pointer;
+                background: #bb2525;
+                color: rgb(255, 255, 255);
+                z-index: 3;
+                border: none;
+                transition: 1s ease-in-out;
+                font-size: 10px;
+                border-radius: 4px;
+                font-weight: bold;
+        
+                &:hover {
+                    transition: .5s ease-in-out;
+                    background: #9b0000;
+                }
+            }
+        }
+    }
+}

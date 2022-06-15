@@ -1,0 +1,30 @@
+.places_dt_container {
+    .card_content {
+        .box {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .al-center {
+            align-items: center;
+        }
+
+        .chip {
+            margin: '5px 5px 5px 0';
+        }
+
+        .subtitle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .spacing {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

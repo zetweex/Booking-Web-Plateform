@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "./components/textFieldAuth";
+@import "./components/buttonAuth";
+@import "./components/button";
+@import "./components/footer";
+@import "./components/navbar";
+@import "./components/updateProfile";
+@import "./components/textField";
+@import "./components/showInfo";
+@import "./components/buttonGoogleAuth";
+@import "./components/flagshipDest";
+@import "./components/advisor/header";
+@import "./components/advisor/map";
+@import "./components/advisor/placeDetails";
+@import "./components/advisor/list";
+
+@import "./pages/auth";
+@import "./pages/profile";
+@import "./pages/home";
+@import "./pages/searchResults";
+@import "./pages/contact";
+@import "./pages/trips";
+@import "./pages/infosCovid";
+@import "./pages/documents";
+@import "./pages/translator";
+@import "./pages/forgotPassword";
+
+@import "./pages/Modals/selectLangague";
+@import "./pages/Modals/accountDeletion";

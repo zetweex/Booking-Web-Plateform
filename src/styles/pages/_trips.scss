@@ -1,0 +1,366 @@
+/* Trips CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;0,900;1,300;1,500;1,800&display=swap');
+
+
+section {
+	padding-top: 80px;
+	padding-right: 0px;
+	display: flex;
+}
+
+#page-breadcrumb {
+	height: 200px;
+	position: relative;
+	z-index: 1;
+}
+
+.common-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(168, 216, 240);
+	z-index: 0;
+	background-image: url("");
+}
+
+.breadcrumb-menu h3 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.breadcrumb-menu .breadcrumb {
+	background-color: transparent;
+	border-top-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-top: 0px;
+}
+
+.breadcrumb-img2 {
+	position: absolute;
+	bottom: 0px;
+	left: -40px;
+}
+
+.breadcrumb-img3 {
+	position: absolute;
+	bottom: -20px;
+	right: 4px;
+}
+
+.breadcrumb li a {
+	color: rgb(255, 255, 255);
+}
+
+.breadcrumb>li {
+	display: inline-block;
+}
+
+.breadcrumb .active {
+	color: rgb(0, 0, 0);
+}
+
+.breadcrumb-menu .breadcrumb {
+	background-color: transparent;
+	border-top-style: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-top: 0px;
+}
+
+.breadcrumb-menu {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.book-content {
+	padding-top: 80px;
+}
+
+.book-view {
+	padding-top: 16px;
+	margin-top: 0px;
+}
+
+.book-item {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(0, 0, 0);
+	border-top-width: initial;
+	border-top-style: none;
+	border-top-color: initial;
+	background-color: transparent;
+	margin-top: 0px;
+	margin-right: 240px;
+	padding-right: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	color: rgb(175, 175, 175);
+}
+
+.hotel_image {
+	margin-bottom: 70%;
+}
+
+.hotel_content {
+	background-image: initial;
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(244, 244, 246);
+	position: absolute;
+	padding-top: 20px;
+	padding-right: 30px;
+	top: 32%;
+	width: 84%;
+	left: 8%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 12px 0px;
+}
+
+.hotel_content h5 {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-weight: 700;
+	margin-top: 10px;
+	line-height: 2rem;
+}
+
+.span_btwn ul li {
+	color: rgb(177, 177, 177);
+}
+
+.span_btwn ul li i,
+.span_btwn ul li span {
+	color: rgb(177, 177, 177);
+}
+
+.span_btwn ul li i {
+	margin-right: 0px;
+}
+
+.hotel_content a {
+	background-color: rgb(37, 158, 217);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	padding-top: 8px;
+	margin-top: 32px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+	transition-property: all;
+	display: block;
+}
+
+.hotel_content .book-btn {
+	margin-top: 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.hotel_content .book-btn a:hover {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0.79);
+    color: rgb(222, 224, 224);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.hotel_content .hotel-text li {
+    font-size: 13px;
+}
+ul, li {
+    margin-top: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+}
+.hotel_image {
+    margin-bottom: 70%;
+}
+img {
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    max-width: 100%;
+}
+#hotel-section h1, #hotel-section h2, #hotel-section h3, #hotel-section h4, #hotel-section h5, #hotel-section h6 {
+    color: rgb(61, 67, 82);
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-family: Poppins;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+/*Hotel Section start*/
+
+.book-content{
+    padding-top: 80px;
+  }
+  .book-view{
+    padding: 16px;
+    margin-top: 0px;
+  }
+  .book-item{
+    border-bottom: 1px solid #000;
+    border-top: none;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-right: 240px;
+    padding-right: 0px;
+    border-radius: 0px;
+    color: #afafaf;
+  }
+  .book-item option i{
+   font-size: 10px;
+    color: #fff;
+    background-color:#000 ;
+  }
+  .span_btwn ul li i{
+    margin-right: 0px;
+  }
+  .span_btwn ul li i,
+  .span_btwn ul li span{
+    color: rgb(177 177 177);
+  }
+  .hotel_content {
+    background: rgb(244, 244, 246);
+    position: absolute;
+    padding: 20px 30px;
+    top: 32%;
+    width: 84%;
+    left: 8%;
+    height:auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 12px 0px rgba(0,0,0,0.2);
+  }
+  .hotel_content h5{
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 2rem;
+  }
+  .hotel_content a{
+    background-color: #259ed9;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 32px;
+    border: 1;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    display: block;
+  }
+  .span_btwn ul li{
+    color: rgb(177 177 177);
+  }
+  .hotel_image{
+    margin-bottom: 70%;
+  }
+  .form-control:focus{
+    box-shadow: none;
+  }
+  .hotel_content p{
+    margin-bottom: 0px;
+  }
+  .hotel_content .hotel-text li{
+    font-size: 13px;
+  }
+  .hotel_content .book-btn{
+    margin: 25px 10px 10px;
+  }
+  .hotel_content .book-btn a:hover{
+    background: #000000c9;
+    color: #dee0e0;
+    border: 1px solid #ffffff;
+  }
+  
+  /*Hotel Section end*/
+
+.add-btn a {
+    background-color: #259ed9;
+    color: #fff!important;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 32px;
+    border: 1;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    display: block;
+}
